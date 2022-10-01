@@ -21,7 +21,7 @@ double[] CreateArrayRndInt(int size, int min, int max)
 
     for (int i = 0; i < size; i++)
     {
-        array[i] = rnd.NextDouble() * (max - min) + min;
+        array[i] = rnd.NextDouble() * (100 - (-100)) + (-100);
     }
     return array;
 }
